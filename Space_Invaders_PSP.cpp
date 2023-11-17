@@ -198,7 +198,7 @@ public:
             }
         }
 
-        return true; // Jei visi ateiviai neaktyvūs
+        return true; 
     }
     void checkAlienBunkerCollisions() {
         for (auto& bunker : bunkers) {
@@ -212,6 +212,7 @@ public:
                         for (int i = 0; i < 5; i++)
                         bunker.takeDamage();
                         if (bunker.isDestroyed()) {
+                            // Jei bunkeris sunaikintas, pašalinti ateivį
                             alien.alive = false;
                         }
                     }
@@ -224,7 +225,6 @@ public:
                         for( int i = 0; i < 5; i++)
                             bunker.takeDamage();
                         if (bunker.isDestroyed()) {
-                            // Jei bunkeris sunaikintas, pašalinti ateivį
                             alien.alive = false;
                         }
                     }
@@ -237,7 +237,6 @@ public:
                         for (int i = 0; i < 5; i++)
                         bunker.takeDamage();
                         if (bunker.isDestroyed()) {
-                            // Jei bunkeris sunaikintas, pašalinti ateivį
                             alien.alive = false;
                         }
                     }
