@@ -1,0 +1,4 @@
+﻿  Space_Invaders_PSP.cpp
+C:\Users\dzuki\source\repos\Space_Invaders_PSP\Space_Invaders_PSP\Space_Invaders_PSP.cpp(464,18): warning C4566: character represented by universal-character-name '\u016B' cannot be represented in the current code page (1252)
+C:\Users\dzuki\source\repos\Space_Invaders_PSP\Space_Invaders_PSP\Space_Invaders_PSP.cpp(464,18): warning C4566: character represented by universal-character-name '\u0173' cannot be represented in the current code page (1252)
+  Space_Invaders_PSP.vcxproj -> C:\Users\dzuki\source\repos\Space_Invaders_PSP\x64\Debug\Space_Invaders_PSP.exe
